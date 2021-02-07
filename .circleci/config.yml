@@ -13,9 +13,6 @@ jobs:
           name: build dependencies
           command: bundle install
 
-      - run:
-          name: build the jekyll site
-
 
       - run:
           name: notify build is finished
